@@ -1,3 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
 
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(204deg, 43%, 93%);
+}
+.main .content {
+  box-shadow: 0 0 7px 0px hsla(218deg, 22%, 67%, 0.5);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+.main .content .card {
+  padding: 1.3rem;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.main .content .card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+.main .content .card h4 {
+  font-size: 1.25rem;
+  color: hsl(71deg, 73%, 54%);
+  margin-bottom: 0.7rem;
+}
+.main .content .card-info {
+  background-color: #fff;
+}
+.main .content .card-info h1 {
+  color: hsl(179deg, 62%, 43%);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.main .content .card-info p {
+  margin: 0;
+  color: hsl(218deg, 22%, 67%);
+}
+.main .content .card-price {
+  height: 100%;
+  color: #fff;
+  background-color: hsl(179deg, 62%, 43%);
+}
+.main .content .card-price p {
+  font-size: 0.9rem;
+}
+.main .content .card-price p span {
+  padding-left: 10px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: hsl(204deg, 43%, 93%);
+}
+.main .content .card-price p:first-of-type {
+  font-size: 1.88rem;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+.main .content .card-price .btn-sign-up {
+  color: #fff;
+  padding: 10px 5.9rem;
+  margin-top: 1rem;
+  background-color: hsl(71deg, 73%, 54%);
+}
+.main .content .card-price .btn-sign-up:focus {
+  box-shadow: none;
+}
+.main .content .card-question {
+  color: #fff;
+  height: 100%;
+  background-color: hsla(179deg, 62%, 43%, 0.7);
+}
+.main .content .card-question ul {
+  margin: 0;
+}
+.main .content .card-question ul li {
+  font-size: 0.95rem;
+}
 
 /*# sourceMappingURL=style.css.map */
