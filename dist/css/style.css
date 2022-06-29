@@ -39,6 +39,16 @@ body {
 }
 .main .content .card-info {
   background-color: #fff;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-top-left-radius: 15px;
+  -ms-border-top-left-radius: 15px;
+  -o-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-top-right-radius: 15px;
+  -ms-border-top-right-radius: 15px;
+  -o-border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .main .content .card-info h1 {
   color: hsl(179deg, 62%, 43%);
@@ -54,6 +64,11 @@ body {
   height: 100%;
   color: #fff;
   background-color: hsl(179deg, 62%, 43%);
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px;
+  -ms-border-bottom-left-radius: 15px;
+  -o-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .main .content .card-price p {
   font-size: 0.9rem;
@@ -82,6 +97,11 @@ body {
   color: #fff;
   height: 100%;
   background-color: hsla(179deg, 62%, 43%, 0.7);
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px;
+  -ms-border-bottom-right-radius: 15px;
+  -o-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .main .content .card-question ul {
   margin: 0;
