@@ -1,0 +1,96 @@
+// Main
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-gray;
+    // Content
+    .content{
+        box-shadow: 0 0 7px 0px hsl(218deg 22% 67% / 50%);
+        @include prefixer(border-radius, 15px, webkit moz ms o);
+        .card{
+            padding: 1.3rem;
+            @include prefixer(border-radius, 0, webkit moz ms o);
+            
+            h3{
+                font-size: 1.2rem;
+                margin-bottom: 1.2rem;
+                text-transform: capitalize;
+            }
+            h4{
+                font-size: 1.25rem;
+                color: $bright-yellow;
+                margin-bottom: .7rem;
+            }
+        }
+        .card-info{
+            background-color: #fff;
+            // @include prefixer(border-top-left-radius, 15px, webkit moz ms o);
+            // @include prefixer(border-top-right-radius, 15px, webkit moz ms o);
+            h1{
+                color: $cyan;
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+            }
+            p{
+                margin: 0;
+                color: $grayish-blue;
+            }
+        }
+        // card price
+        .card-price{
+            height: 100%;
+            color: #fff;
+            background-color: $cyan;
+            // @include prefixer(border-bottom-left-radius, 15px, webkit moz ms o);
+            p{
+                font-size: .9rem;
+                span{
+                    padding-left: 10px;
+                    font-size: .95rem;
+                    font-weight: 400;
+                    color: $light-gray;
+                }
+                &:first-of-type{
+                    font-size: 1.88rem;
+                    font-weight: 600;
+                    margin-bottom: .1rem;
+                }
+            }
+            // Button
+            .btn-sign-up{
+                color: #fff;
+                padding: 10px 5.9rem;
+                margin-top: 1rem;
+                background-color: $bright-yellow;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+        
+        // card question
+        .card-question{
+            color: #fff;
+            height: 100%;
+            background-color: hsl(179deg 62% 43% / 70%);
+            // @include prefixer(border-bottom-right-radius, 15px, webkit moz ms o);
+            ul{
+                margin: 0;
+                li{
+                    font-size: .95rem;
+
+                }
+            }
+        }
+    }
+}
+
+// End of Main
+
+
+@media (max-width: 767.98px) {
+    
+}
