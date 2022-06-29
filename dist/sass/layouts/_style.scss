@@ -26,8 +26,8 @@
         }
         .card-info{
             background-color: #fff;
-            // @include prefixer(border-top-left-radius, 15px, webkit moz ms o);
-            // @include prefixer(border-top-right-radius, 15px, webkit moz ms o);
+            @include prefixer(border-top-left-radius, 15px, webkit moz ms o);
+            @include prefixer(border-top-right-radius, 15px, webkit moz ms o);
             h1{
                 color: $cyan;
                 font-size: 1.5rem;
@@ -44,7 +44,7 @@
             height: 100%;
             color: #fff;
             background-color: $cyan;
-            // @include prefixer(border-bottom-left-radius, 15px, webkit moz ms o);
+            @include prefixer(border-bottom-left-radius, 15px, webkit moz ms o);
             p{
                 font-size: .9rem;
                 span{
@@ -76,12 +76,11 @@
             color: #fff;
             height: 100%;
             background-color: hsl(179deg 62% 43% / 70%);
-            // @include prefixer(border-bottom-right-radius, 15px, webkit moz ms o);
+            @include prefixer(border-bottom-right-radius, 15px, webkit moz ms o);
             ul{
                 margin: 0;
                 li{
                     font-size: .95rem;
-
                 }
             }
         }
@@ -92,5 +91,5 @@
 
 
 @media (max-width: 767.98px) {
-    
+
 }
