@@ -32,7 +32,7 @@ body {
   margin-bottom: 1.2rem;
   text-transform: capitalize;
 }
-.main .content .card h4 {
+.main .content .card h2 {
   font-size: 1.25rem;
   color: hsl(71deg, 73%, 54%);
   margin-bottom: 0.7rem;
